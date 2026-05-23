@@ -5,5 +5,14 @@
   },
   "storage": {
     "rules": "storage.rules"
+  },
+  "hosting": {
+    "site": "internly-12",
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }
